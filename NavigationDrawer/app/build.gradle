@@ -5,7 +5,7 @@ android {
     buildToolsVersion "21.1.0"
 
     defaultConfig {
-        applicationId "com.mycompany.myapp"
+        applicationId "com.mycompany.navdrawer"
         minSdkVersion 14
         targetSdkVersion 21
         versionCode 1
@@ -20,8 +20,9 @@ android {
 }
 
 dependencies {
+	testCompile 'junit:junit:4.12'
 	compile 'com.android.support:appcompat-v7:+'
-	compile 'com.android.support:cardview-v7:+'
-	compile 'com.android.support:support-v4:+'
+	compile 'com.android.support:design:+'
     compile fileTree(dir: 'libs', include: ['*.jar'])
 }
+
